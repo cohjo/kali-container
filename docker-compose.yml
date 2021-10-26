@@ -1,0 +1,9 @@
+version: "1"
+
+services:
+  mykali:
+    image: "mykali"
+    # uncomment for shared volume
+    # volumes:
+    #   - /mnt/share-mykali:/share
+    build: .
